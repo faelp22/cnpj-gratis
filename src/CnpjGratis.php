@@ -16,7 +16,7 @@ class CnpjGratis {
      */
     public static function getParams()
     {
-        $data = self::request('http://www.receita.fazenda.gov.br/pessoajuridica/cnpj/cnpjreva/Cnpjreva_Solicitacao2.asp');
+        $data = self::request('http://www.receita.fazenda.gov.br/pessoajuridica/cnpj/cnpjreva/Cnpjreva_solicitacao3.asp');
 
         $cookie = $data['headers']['Set-Cookie'];
 
